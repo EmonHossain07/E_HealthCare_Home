@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.content{
+    height: auto;
+    width: 60%;
+    margin-left: 20px;
+    margin-top: 30%;
+}
+.content h1{
+    text-align: left;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(63, 3, 3);
+    font-size: 35px;
+}
+.content p{
+    width: 80%;
+    text-align: justify;
+    font-size: 20px;
+    color: rgb(63, 3, 3);
+    font-weight: 600;
+}
+.button{
+    padding: 5px;
+    border-radius: 15px;
+    text-align: center;
+    font-weight: 400;
+    color: rgb(4, 4, 83);
+    background-color: rgb(185, 128, 128);
+}
+.button:hover{
+    background-color: rgb(220, 201, 171);
+    color: #000;
+    font-weight: 600;
+    font-style: italic;
+}
